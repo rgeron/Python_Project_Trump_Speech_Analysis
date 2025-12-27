@@ -1,0 +1,17 @@
+[project]
+name = "getting-in-trump-s-head-1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "NgrimaldiN",email = "nicolas.grimaldi2@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel (>=7.1.0,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,24 @@
+chromedriver-autoinstaller
+selenium
+requests
+beautifulsoup4
+pandas
+seaborn
+matplotlib
+geopandas
+geopy
+plotly
+jupyter
+notebook
+pyarrow
+tad
+spacy
+simplemma
+# NLP & Deep Learning
+torch
+numpy
+textstat
+transformers
+datasets
+accelerate
+scikit-learn
