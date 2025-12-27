@@ -8,7 +8,7 @@ from src.text_cleaning.cleaner import apply_cleaning_to_parquet
 
 def main():
     parquet_path = "data/transcriptions.parquet"
-    output_column = "clean-v1-with-stopwords"
+    output_column = "clean-v1"
     
     print(f"Applying cleaning to {parquet_path}...")
     print(f"Output column: {output_column}")
@@ -16,7 +16,7 @@ def main():
     apply_cleaning_to_parquet(
         parquet_path=parquet_path,
         output_column=output_column,
-        remove_stopwords=False,
+        remove_stopwords=True,
         remove_punctuation=True,
         lemmatize=True,
         remove_brackets=True,
