@@ -26,6 +26,10 @@ def basic_normalization(text: str) -> str:
     if not text:
         return ""
     
+    # Remove text between brackets (e.g. [APPLAUSE])
+    # flags=re.DOTALL to handle multi-line brackets if any
+    text = re.sub(r"\[.*?\]", "", text, flags=re.DOTALL)
+
     # Lowercase
     text = text.lower()
     

@@ -1,0 +1,8 @@
+# Ignore database files
+*.db
+
+# Ignore parquet files
+*.parquet
+
+# Ignore data folder
+data/
